@@ -16,8 +16,6 @@ services:
       - ./back:/app
     depends_on:
       - db
-    ports:
-      - 3000:3000
 
   front:
     container_name: umbreon_front
@@ -27,3 +25,5 @@ services:
       - ./front:/app
     ports:
       - 8080:3000
+    depends_on:
+      - back
