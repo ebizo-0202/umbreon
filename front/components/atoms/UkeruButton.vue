@@ -20,6 +20,7 @@ export default {
   font-size: 16px;
   cursor: pointer;
   position: relative;
+  height: 50px;
 }
 
 .ukeruButton:hover {
